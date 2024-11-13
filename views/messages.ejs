@@ -1,0 +1,7 @@
+<% messages.forEach(message => { %>
+    <div class="card">
+        <h1>Text: <%= message.text %></h1>
+        <h2>User: <%= message.user %></h2>
+        <h2>Date: <%= message.added.toLocaleString() %></h2>
+    </div>
+<% }); %>
